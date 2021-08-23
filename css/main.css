@@ -31,7 +31,9 @@ header .header-icons-container .icons {
     height: auto;
     display: flex;
     justify-items: flex-end;
+    /* Justificar el espacio para que los elementos se pueedan centrar */
     align-items: center;
+    /* Les estamos dando un espacio a los elementos */
     justify-content: space-between;
     justify-self: end;
     margin-right: 50px;
