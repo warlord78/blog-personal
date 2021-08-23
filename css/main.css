@@ -25,3 +25,14 @@ header .header-icons-container {
     display: grid;
     background-color:#47cfac;
 }
+header .header-icons-container .icons {
+    width: 300px;
+    /* Tan grande como su padre */
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+}
