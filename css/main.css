@@ -3,16 +3,19 @@ body {
     font-family: 'Roboto Mono', monospace;
     margin:0;
     padding:0;
-    position:fixed;
-    top:0;
-    bottom: 0;
-    left:0;
-    right:0;
+    
 }
 a {
     text-decoration:none;
     display: inline;
     color:black;
+}
+.home-body {
+    position:fixed;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
 }
 header {
     width: 100%;
@@ -149,7 +152,7 @@ nav .profile-link a {
     grid-column: 1;
 }
 .blogs-news-img-container img {
-
+  width: 85%;
 }
 .blogs-news-info-container {
     /* Poscion de elementos*/
