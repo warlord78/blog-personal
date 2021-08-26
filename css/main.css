@@ -203,3 +203,21 @@ footer p {
     margin-top: 30px;
 
 }
+
+.blogpost-img-container {
+    padding:0 50px 40px;
+}
+
+.blogpost-img-container img {
+  width: 100%;
+}
+.blogpost-main-container {
+    padding: 0 50px 40px;
+}
+.blogpost-main-container h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+}
+.blogpost-main-container section h1 {
+    font-size: 35px;
+} 
