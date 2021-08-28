@@ -1,0 +1,37 @@
+/*Break Points */
+/* cuando la pantalla llegue al maximo de 900 px
+los estilos se van a llevar a cabo es coomo una condicional */
+@media (max-width: 900px){
+    .blogs-main-new {
+        grid-template-columns: 1fr;
+        /* de esa fracion tengo 2 columnas con 2 lineas
+        conviertete en en vez de 2, 3 filas*/
+        grid-template-rows: 3fr;
+    }
+    .blogs-main-new-img-container {
+        /* vete a la fila 2 */
+        grid-row: 2;
+    }
+    .blogs-news-info-container {
+        /* vete a la columna 1 y a la fila 3 */
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .blogs-post-container .post-container {
+        max-width: 45%;
+    }
+    /* Reglas para pagina Perfil */
+    .poryects-main-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr;
+    }
+    .profile-main-container .profile-container {
+        display: block;
+    }
+}
+
+@media (max-width: 600px){
+    .blogs-post-container .post-container{
+        max-width: 95%;
+    }
+}
