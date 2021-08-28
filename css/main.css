@@ -248,3 +248,34 @@ footer p {
 .contact-main-container img {
     width: 100px;
 }
+/*Class Perfil */
+.profile-main-container {
+    padding: 70px 40px;
+    background-color: #e6e9ed;
+    margin-bottom: 50px;
+}
+.profile-main-container img {
+    width: 320px;
+    /* Aleja el contenido del lado derecho */
+    margin-right: 30px;
+}
+/* para poner los hijos a la lado del otro usamos Flex */
+.profile-main-container .profile-container {
+     display: flex;
+}
+.profile-main-proyects {
+    padding: 0 50px 40px;
+}
+.profile-main-proyects h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 35px;
+    text-align: center;
+}
+/* Sea Grid para que se separe en 3 Fracciones */
+.poryects-main-container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+.proyect-container {
+    padding: 0 5px;
+}
